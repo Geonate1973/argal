@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- QUERY PARA GOOGLE RECAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- fin QUERY PARA GOOGLE RECAPTCHA -->
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+
+   
+
+    <script src="js/slider/jquery-3.1.0.min.js"></script>
+    <script src="js/slider/jquery.flexslider.js"></script>
+    <script src="js/slider/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/17c3bf4af0.js" crossorigin="anonymous"></script>
+
+    <title>Argal Ingenieros Constructores Edificios </title>
+
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/logoCasa.png" alt="">
+        <div class="linea"></div>
+        <nav class="menuLaptop">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="nosotros.html"><i class="fas fa-city"></i> Nosotros</a></li>
+                    <li><a href="servicios.html"><i class="fas fa-flag"></i> Servicios</a></li>
+                    <li><a href="proyectos.html"><i class="fas fa-flag"></i> Proyectos</a></li>
+                    <li><a href="contacto.html"><i class="fas fa-id-badge"></i> Contacto</a></li>
+                </ul>
+            </nav>
+    
+            <nav class="menuCelular">
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                        <li><a href="nosotros.html"><i class="fas fa-city"></i></a></li>
+                        <li><a href="proyectos.html"><i class="fas fa-flag"></i></a></li>
+                        <li><a href="contacto.html"><i class="fas fa-id-badge"></i></a></li>
+                    </ul>
+                </nav>
+    </div>
+
+   <div class="cajaMaster">
+    <div class="cajaBanner">
+        <img src="img/banner_contacto.jpg" alt="">
+
+    </div>
+        <div class="cajaCuerpo1">
+            <h2>DATOS DE LA EMPRESA:</h2>
+
+            <p>Nombre			 :	Argal Ingenieros SAC</p>
+            <p>R.U.C.			 :	20545183588</p>
+            <p>Domicilio legal		 :	Av. Lima N° 125 – Chorrillos</p>
+            <p>Repr. Legal			 : 	Ing. César A. Gálvez Armas</p>
+            <p>Teléfono			 :	01-511 9692</p>
+            <p>Móvil:				 :	952-806003</p>
+            <p>E-mail				 :	proyectos@argalingenieros.com</p>
+            
+        </div>
+        <br> <br> <br>
+        <h2>Comunícate con Nosotros</h2><br>
+        <div class="cajaFormulario">
+            <form action="php/enviar.php" method="post">
+
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo aquí" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <br>
+            <label for="consulta">Consulta:</label>
+            <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+
+            <div class="g-recaptcha" data-sitekey="6LcLSL0UAAAAAPZz9H8iwJd5jjE89S3qJAOactWV"></div>
+
+            <br>
+            <input type="submit" value="Enviar">
+          </form>
+
+    
+    </form>
+</div>
+   </div>
+
+
+
+
+
+       
+<footer>
+        <p>ARGAL INGENIEROS</p>
+        <p>Desarrollado por <a href="http://www.geodreamspro.com">GEODREAMS</a></p>
+    <p>Todos los derechos reservados 2019</p>
+    <p><a href="https://www.facebook.com/argalingenieros" target ="blank">- facebook -</a></p>
+</footer>
+</body>
+
+</html>

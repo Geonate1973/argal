@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+    .cajaMaster {
+        width: 100%;
+    }
+
+    .menuLaptop{
+        display: none;
+    }
+
+    .menuCelular{
+        display: block;
+        
+        a{
+            padding: 20px;
+        }
+    }
+
+    .cajaSlider{
+        width: 100%;
+        margin: auto;
+       
+    }
+  }
