@@ -28,8 +28,8 @@ if ($captcha_success->success) {
 	$cabeceras .= "Content-type: text/html; charset=utf-8\r\n";
 	$cabeceras .= "From: Mensaje desde la WEB ARGAL INGENIEROS <proyectos@argalingenieros.com>\r\n";
 
-	$titulo = "Mensaje desde la Web de RIOS RAMIREZ";
-	$correo= "geodreams@gmail.com, desarrollo@geodreamspro.com";
+	$titulo = "Mensaje desde la Web de ARGAL INGENIEROS";
+	$correo= "cesarenrique.galvez@argalingenieros.com, desarrollo@geodreamspro.com";
 	/*$correo= "desarrollo@geodreamspro.com";*/
 
 	$asunto="Envio desde formulario web de la pagina de GARDEN";

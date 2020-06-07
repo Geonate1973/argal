@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Jugando con las variables</h1>
+
+    <script>
+        var articulos = ["zapatillas", "camisetas", "pantalon", "calcetines"];
+
+        document.write("<p>");
+        document.write("El primer articulo es" + " " + "<strong> " + articulos[0]+"<br>"+"</strong>") ;
+        document.write("El ultimo articulo es:" + articulos[articulos.length -1] + "<br>");
+        articulos.unshift("balon");
+        document.write("Casi nos olvidamos este elemento: " +articulos[0]+ "<br>");
+        document.write("Agregemos un articulo al final:");
+        articulos.push(prompt("Introduce el articulo"));
+        document.write(articulos[articulos.length-1]+ "<br>");
+        document.write("vamos hasta ahora" + " " +  articulos.length + " "+"articulos");
+    </script>
+</body>
+
+</html>
